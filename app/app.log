@@ -1,0 +1,138 @@
+2024-12-09 13:59:36,532 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-09 13:59:36,532 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 13:59:36,534 - werkzeug - INFO -  * Restarting with stat
+2024-12-09 14:00:10,400 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-09 14:00:10,401 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 14:00:10,404 - werkzeug - INFO -  * Restarting with stat
+2024-12-09 14:00:12,979 - werkzeug - WARNING -  * Debugger is active!
+2024-12-09 14:00:13,011 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-09 14:01:53,100 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:01:53] "GET / HTTP/1.1" 200 -
+2024-12-09 14:01:58,324 - flask_app - INFO - User Input: 'this is amazing' | Predicted Sentiment: 'positive'
+2024-12-09 14:01:58,326 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:01:58] "POST /predict HTTP/1.1" 200 -
+2024-12-09 14:02:03,571 - flask_app - INFO - User Input: 'this is terrible' | Predicted Sentiment: 'positive'
+2024-12-09 14:02:03,572 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:02:03] "POST /predict HTTP/1.1" 200 -
+2024-12-09 14:02:07,298 - flask_app - INFO - User Input: 'i hate this' | Predicted Sentiment: 'positive'
+2024-12-09 14:02:07,299 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:02:07] "POST /predict HTTP/1.1" 200 -
+2024-12-09 14:02:18,414 - flask_app - INFO - User Input: 'do not buy this product it is not good' | Predicted Sentiment: 'positive'
+2024-12-09 14:02:18,414 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:02:18] "POST /predict HTTP/1.1" 200 -
+2024-12-09 14:02:25,354 - flask_app - INFO - User Input: 'do not buy' | Predicted Sentiment: 'negative'
+2024-12-09 14:02:25,355 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:02:25] "POST /predict HTTP/1.1" 200 -
+2024-12-09 14:02:32,291 - flask_app - INFO - User Input: 'this is not good' | Predicted Sentiment: 'negative'
+2024-12-09 14:02:32,292 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:02:32] "POST /predict HTTP/1.1" 200 -
+2024-12-09 14:02:44,231 - flask_app - INFO - User Input: 'i dont think anyone should buy the product it is terrible' | Predicted Sentiment: 'negative'
+2024-12-09 14:02:44,232 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:02:44] "POST /predict HTTP/1.1" 200 -
+2024-12-09 14:02:52,255 - flask_app - INFO - User Input: 'you should buy this it is great' | Predicted Sentiment: 'positive'
+2024-12-09 14:02:52,256 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 14:02:52] "POST /predict HTTP/1.1" 200 -
+2024-12-09 20:43:27,912 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-09 20:43:27,914 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:43:27,919 - werkzeug - INFO -  * Restarting with stat
+2024-12-09 20:43:29,394 - werkzeug - WARNING -  * Debugger is active!
+2024-12-09 20:43:29,410 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-09 20:46:27,621 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:46:27] "GET / HTTP/1.1" 200 -
+2024-12-09 20:46:45,671 - flask_app - INFO - User Input: 'this product is terrible do not buy this product' | Predicted Sentiment: 'negative'
+2024-12-09 20:46:45,672 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:46:45] "POST /predict HTTP/1.1" 200 -
+2024-12-09 20:52:50,195 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-09 20:52:50,196 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:52:50,199 - werkzeug - INFO -  * Restarting with stat
+2024-12-09 20:52:53,274 - werkzeug - WARNING -  * Debugger is active!
+2024-12-09 20:52:53,345 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-09 20:52:54,844 - flask_app - INFO - User Input: 'this product is terrible do not buy this product' | Predicted Sentiment: '<module 'nltk.sentiment' from '/Users/glaizalopez/PycharmProjects/C964_Capstone/.venv/lib/python3.13/site-packages/nltk/sentiment/__init__.py'>'
+2024-12-09 20:52:54,848 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:52:54] "POST /predict HTTP/1.1" 200 -
+2024-12-09 20:53:18,142 - flask_app - INFO - User Input: 'this product is terrible do not buy it' | Predicted Sentiment: '<module 'nltk.sentiment' from '/Users/glaizalopez/PycharmProjects/C964_Capstone/.venv/lib/python3.13/site-packages/nltk/sentiment/__init__.py'>'
+2024-12-09 20:53:18,145 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:53:18] "POST /predict HTTP/1.1" 200 -
+2024-12-09 20:58:50,354 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-09 20:58:50,355 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 20:58:50,357 - werkzeug - INFO -  * Restarting with stat
+2024-12-09 20:58:52,233 - werkzeug - WARNING -  * Debugger is active!
+2024-12-09 20:58:52,257 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-09 20:58:56,075 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:58:56] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-12-09 20:58:56,297 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:58:56] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2024-12-09 20:58:56,303 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:58:56] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2024-12-09 20:58:56,351 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 20:58:56] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=6mHMFyijLA1ffIl0JmjJ HTTP/1.1" 200 -
+2024-12-09 21:12:07,242 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-09 21:12:07,243 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 21:12:07,245 - werkzeug - INFO -  * Restarting with stat
+2024-12-09 21:12:08,879 - werkzeug - WARNING -  * Debugger is active!
+2024-12-09 21:12:08,895 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-09 21:12:11,067 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:12:11] "GET / HTTP/1.1" 200 -
+2024-12-09 21:12:25,055 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:12:25] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -
+2024-12-09 21:12:25,182 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:12:25] "[36mGET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2024-12-09 21:12:25,184 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:12:25] "[36mGET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2024-12-09 21:12:25,199 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:12:25] "GET /predict?__debugger__=yes&cmd=resource&f=console.png&s=5C1ycQ1TUnrZpktTrEFp HTTP/1.1" 200 -
+2024-12-09 21:21:08,059 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-09 21:21:08,060 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-09 21:21:08,062 - werkzeug - INFO -  * Restarting with stat
+2024-12-09 21:21:10,226 - werkzeug - WARNING -  * Debugger is active!
+2024-12-09 21:21:10,261 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-09 21:21:14,178 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:21:14] "GET / HTTP/1.1" 200 -
+2024-12-09 21:21:23,914 - flask_app - INFO - User Input: 'this product is terrible do not buy it' | Predicted Sentiment: 'negative'
+2024-12-09 21:21:23,915 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:21:23] "POST /predict HTTP/1.1" 200 -
+2024-12-09 21:21:31,890 - flask_app - INFO - User Input: 'i love this product this is amazing' | Predicted Sentiment: 'negative'
+2024-12-09 21:21:31,890 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:21:31] "POST /predict HTTP/1.1" 200 -
+2024-12-09 21:21:41,006 - flask_app - INFO - User Input: 'you should buy this product it is great' | Predicted Sentiment: 'positive'
+2024-12-09 21:21:41,006 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:21:41] "POST /predict HTTP/1.1" 200 -
+2024-12-09 21:21:48,636 - flask_app - INFO - User Input: 'this product is amazing' | Predicted Sentiment: 'positive'
+2024-12-09 21:21:48,642 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:21:48] "POST /predict HTTP/1.1" 200 -
+2024-12-09 21:21:55,220 - flask_app - INFO - User Input: 'do not buy this it is not good' | Predicted Sentiment: 'positive'
+2024-12-09 21:21:55,221 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:21:55] "POST /predict HTTP/1.1" 200 -
+2024-12-09 21:22:02,064 - flask_app - INFO - User Input: 'this is not good do not buy' | Predicted Sentiment: 'negative'
+2024-12-09 21:22:02,070 - werkzeug - INFO - 127.0.0.1 - - [09/Dec/2024 21:22:02] "POST /predict HTTP/1.1" 200 -
+2024-12-10 10:01:24,090 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 10:01:24,094 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 10:01:24,100 - werkzeug - INFO -  * Restarting with stat
+2024-12-10 10:01:28,797 - werkzeug - WARNING -  * Debugger is active!
+2024-12-10 10:01:28,837 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-10 10:01:30,303 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 10:01:30] "GET / HTTP/1.1" 200 -
+2024-12-10 10:02:09,652 - flask_app - INFO - User Input: 'this is a terrible product do not buy it' | Predicted Sentiment: 'negative'
+2024-12-10 10:02:09,654 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 10:02:09] "POST /predict HTTP/1.1" 200 -
+2024-12-10 10:15:05,459 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 10:15:05,460 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 10:15:05,462 - werkzeug - INFO -  * Restarting with stat
+2024-12-10 10:15:10,075 - werkzeug - WARNING -  * Debugger is active!
+2024-12-10 10:15:10,119 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-10 10:15:10,224 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 10:15:10] "GET / HTTP/1.1" 200 -
+2024-12-10 10:15:13,659 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 10:15:13] "GET /sentiment-chart HTTP/1.1" 200 -
+2024-12-10 10:15:17,244 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 10:15:17] "GET / HTTP/1.1" 200 -
+2024-12-10 10:15:18,602 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 10:15:18] "GET /classification-report HTTP/1.1" 200 -
+2024-12-10 10:15:22,564 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 10:15:22] "GET / HTTP/1.1" 200 -
+2024-12-10 14:37:43,831 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 14:37:43,831 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 14:37:43,833 - werkzeug - INFO -  * Restarting with stat
+2024-12-10 14:37:46,102 - werkzeug - WARNING -  * Debugger is active!
+2024-12-10 14:37:46,167 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-10 14:37:55,565 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:37:55] "GET / HTTP/1.1" 200 -
+2024-12-10 14:38:07,794 - flask_app - INFO - User Input: 'this is terrible do not buy this product' | Predicted Sentiment: 'negative'
+2024-12-10 14:38:07,795 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:38:07] "POST /predict HTTP/1.1" 200 -
+2024-12-10 14:38:18,281 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:38:18] "GET / HTTP/1.1" 200 -
+2024-12-10 14:38:46,321 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 14:38:46,321 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 14:38:46,324 - werkzeug - INFO -  * Restarting with stat
+2024-12-10 14:38:48,251 - werkzeug - WARNING -  * Debugger is active!
+2024-12-10 14:38:48,265 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-10 14:38:48,308 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:38:48] "GET / HTTP/1.1" 200 -
+2024-12-10 14:39:07,337 - flask_app - INFO - User Input: 'do not buy this product it is terrible' | Predicted Sentiment: 'negative'
+2024-12-10 14:39:07,338 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:39:07] "POST /predict HTTP/1.1" 200 -
+2024-12-10 14:39:14,951 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:39:14] "GET /sentiment-chart HTTP/1.1" 200 -
+2024-12-10 14:39:26,453 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:39:26] "GET / HTTP/1.1" 200 -
+2024-12-10 14:39:28,624 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:39:28] "GET /classification-report HTTP/1.1" 200 -
+2024-12-10 14:42:16,225 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-12-10 14:42:16,226 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2024-12-10 14:42:16,227 - werkzeug - INFO -  * Restarting with stat
+2024-12-10 14:42:18,269 - werkzeug - WARNING -  * Debugger is active!
+2024-12-10 14:42:18,287 - werkzeug - INFO -  * Debugger PIN: 653-527-121
+2024-12-10 14:42:18,335 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:42:18] "GET / HTTP/1.1" 200 -
+2024-12-10 14:42:27,485 - flask_app - INFO - User Input: 'this is terrible do not buy it
+' | Predicted Sentiment: 'negative'
+2024-12-10 14:42:27,486 - werkzeug - INFO - 127.0.0.1 - - [10/Dec/2024 14:42:27] "POST /predict HTTP/1.1" 200 -

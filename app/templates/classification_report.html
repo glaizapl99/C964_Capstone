@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classification Report</title>
+</head>
+<body>
+    <h1>Classification Report</h1>
+    <table border="1">
+        <tr>
+            <th>Sentiment</th>
+            <th>Precision</th>
+            <th>Recall</th>
+            <th>F1-Score</th>
+            <th>Support</th>
+        </tr>
+        <tr>
+            <td>Positive</td>
+            <td>{{ report['positive']['precision'] }}</td>
+            <td>{{ report['positive']['recall'] }}</td>
+            <td>{{ report['positive']['f1-score'] }}</td>
+            <td>{{ report['positive']['support'] }}</td>
+        </tr>
+        <tr>
+            <td>Negative</td>
+            <td>{{ report['negative']['precision'] }}</td>
+            <td>{{ report['negative']['recall'] }}</td>
+            <td>{{ report['negative']['f1-score'] }}</td>
+            <td>{{ report['negative']['support'] }}</td>
+        </tr>
+    </table>
+    <p>Overall Accuracy: {{ report['accuracy'] }}</p>
+    <button onclick="window.location.href='/'">Back to Home</button>
+</body>
+</html>
